@@ -6,12 +6,13 @@ int main()
   cout << "Number of Students and Number of Subjects: ";
   cin >> N >> M;
   string sname;
-  int score, total = 0;
+  int score;
 
   for (int i=0; i<N; i++)
   {
     cout << "Enter Student name: ";
-    cin >> sname;  
+    cin >> sname;
+    int total = 0;  
     for(int j=0; j<M; j++)
     {
       cout << "Enter Score: ";
